@@ -332,7 +332,7 @@ h5 {
 }
 
 .workuno {
-	width: 400px;
+	width: 100%;
 	height: 	300px;
 	
 		border-radius: 	10px;
@@ -469,6 +469,9 @@ cursor: pointer;
 	}
 	.form {
 		width: 80%;
+	}
+	.tittle-img {
+		width: auto;
 	}
 }
 
