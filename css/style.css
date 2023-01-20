@@ -18,6 +18,9 @@ header {
 
 }
 
+.headerall {
+		margin-bottom: 70px;
+}
 .img-introduction-cont {
 	display: flex;
 	width: 100%;
@@ -26,6 +29,7 @@ header {
 
 .tittle {
 	width: 100%;
+	margin-top: 20px;
 }
 
 .tittle-img {
@@ -104,6 +108,14 @@ z-index: 0;
 	justify-content: space-evenly;
 
 
+
+}
+
+.divition {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 70px;
 }
 
 
@@ -127,8 +139,9 @@ z-index: 0;
 	color: orange;
 	background: none;
 	height: 0px;
+	margin-bottom: 70px;
 	width: 50px;
-	margin-top: 100px;
+	
 
 	
 }
@@ -167,8 +180,10 @@ h2 {
 	justify-content: space-evenly;
 	background: 	papayawhip;
 	padding: 40px;
-	margin-bottom: 150px;
+	margin-bottom: 70px;
+
 	box-shadow: 5px 5px 20px 0px;
+
 	
 
 }
@@ -250,7 +265,7 @@ hr {
 .about-me-container {
 	width: 100%;
 	
-	padding: 20px;
+	margin-top: 20px;
 	
 
 
@@ -279,6 +294,7 @@ hr {
 	align-items: center;
 	width: 70%;
 	border-radius: 10px;
+	margin-top: 20px;
 	
 
 }
@@ -311,20 +327,20 @@ h4,h5	{
 
 
 h5 {
-	margin-top: 150px;
+	margin-top: 70px;
 }
 
 
 
 /***********************************/
 .works {
-	margin-top: 	180px;
+	margin-top: 	70px;
 	display: flex;
 	justify-content: center;
 	box-shadow: 5px 5px 20px 0px;
 	background: 	antiquewhite;
 	padding: 	20px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	flex-wrap: wrap;
 	
 
@@ -356,10 +372,14 @@ h5 {
 
 /************************************/
 .contact-container {
-	display: flex;
+	
 	justify-content: center;
 	flex-wrap: 	wrap	;
 
+}
+.formcont {
+	display: flex;
+	justify-content: center;
 }
 
 .form {
@@ -441,7 +461,7 @@ cursor: pointer;
 
 
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 800px){
 
 	.can {
 		
@@ -451,9 +471,7 @@ cursor: pointer;
 		align-content: center;
 		
 	}
-	main {
-		margin-top: 400px;
-	}
+	
 	.img-introduction-cont {
 		flex-direction: column;
 
@@ -479,3 +497,51 @@ cursor: pointer;
 
 
 
+
+
+@media screen and (max-width: 650px){
+	header {
+		height: auto;
+	}
+	.can {
+		
+		
+		flex-wrap: wrap;
+		display: flex;
+		align-content: center;
+		
+	}
+	
+	.img-introduction-cont {
+		flex-direction: column;
+
+	}
+	.male-img {
+		display: flex;
+		justify-content: center;
+	}
+	.intro {
+		justify-content: center;
+		display: flex;
+		width: 100%;
+	}
+	.form {
+		width: 80%;
+	}
+	.tittle-img {
+		width: auto;
+	}
+}
+
+/*********** footer */
+.linksfooter {
+	background: navajowhite;
+	margin-top: 70px;
+	text-align: center;
+	font-family: 'Raleway';
+	color: black;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 40px;
+}

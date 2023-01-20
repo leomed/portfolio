@@ -16,12 +16,15 @@
 
 
 <header>	
+<div class="headerall">
+	
+
 
 			<div class="links">
 				
 
 						<a id="contact-link" class="contact-link"href="#">Contact</a>
-						<a id="contact-link" class="contact-link"href="#">Works</a>
+						<a id="work-link" class="contact-link"href="#">Works</a>
 			</div>
 				<div class="about-me-container">
 					<div class="links">
@@ -77,8 +80,11 @@
 						<p>Being constant in what i do, because practice makes perfect. </p>
 					</div>
 
+
 </div>
-<hr class="division">
+</div>
+
+						<hr class="division">
 </header>
 		
 
@@ -119,7 +125,7 @@
 	<hr class="division">
 
 		
-		<div class="works">	
+		<div class="works" id="trabajos">	
 				<h4>Works</h4>
 			<div class="workunocontainer">	
 
@@ -135,6 +141,9 @@
 		<hr class="division">
 	<div class="contact-container">
 	<h5>Contact Me</h5>
+
+	<div class="formcont" id="contacto">
+		
 	<form action="<?php 	echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" class="form">
 		<input type="text" placeholder="Nombre:" name="nombre" id="nombre" class="nombre">
 		<input type="text" placeholder="Apellido:" name="apellido" id="apellido" class="apellido">
@@ -154,9 +163,15 @@
 
 	</form>
 	</div>
+	</div>
 </main>
 
-
+<footer>
+		<div class="linksfooter">
+				
+<p>All Rights Reserved</p>
+			</div>
+</footer>
 </body>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.js"></script>

@@ -80,8 +80,21 @@ if ($(window).scrollTop() > 600){
 });
 
 
+$('#contact-link').on('click' , function(){
+	$('html, body').animate({
+		scrollTop: 2500
+	},1000);
 
-		
+});
+
+
+	$('#work-link').on('click' , function(){
+	$('html, body').animate({
+		scrollTop: 1000
+	},1000);
+
+});
+	
 
 
 
