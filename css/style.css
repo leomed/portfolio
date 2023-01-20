@@ -1,0 +1,452 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+header {
+	height: 	100vh;
+	background: 	#e0ebe8;
+
+	flex-wrap: wrap;
+	width: 100%;
+	background: url(images/city.jpg);
+	
+}
+.header-content {
+	width: 100%;
+	
+
+}
+
+.img-introduction-cont {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.tittle {
+	width: 100%;
+}
+
+.tittle-img {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	
+}
+
+.contfull {
+	
+}
+.todo {
+
+
+	width: 500px;
+	margin: auto;
+	height: 1000px;
+	
+	
+
+}
+
+span {
+	font-family: 'Raleway';
+	font-weight: 100;
+	color: darkorange;
+}
+h1{
+	font-family: 'Raleway';
+	font-weight: 100;
+	color: dar;
+	text-align: center;
+	top: 	0px;
+	z-index: 1;
+	position: relative;
+	font-size: 	50px;
+	bottom: 0px;
+
+
+}
+
+.img-building {
+	height: 	200px;
+ width : 200px;
+position: absolute;
+background: 	darkorange;
+
+background: none;
+ 
+z-index: 0;
+ right: -100px;
+ bottom: 0px;
+}
+
+.amplifier2 {
+	height: 250px;
+	width: 250px;
+	display: block;
+	margin: auto;
+	
+	
+	
+}
+.wline {
+		height: 5px;
+	width: 10%;
+	margin: 	auto;
+	
+	background: 	orange;
+}
+
+.can {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+
+
+}
+
+
+.can-img{
+	font-family: 'Raleway';
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.can-img p {
+	font-weight: 700;
+	color: darkorange;
+	padding: 20px;
+}
+
+.division {
+	
+	border-top: 10px dotted;
+	color: orange;
+	background: none;
+	height: 0px;
+	width: 50px;
+	margin-top: 100px;
+
+	
+}
+.imgdo {
+	width: 100px;
+	height: 100px;
+}
+
+.h2content {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	
+	color: darkorange;
+	
+
+}
+.h2content h2{
+font-weight: 200;
+}
+
+
+/*********************************************/
+h2 {
+	font-family: 	'Raleway';
+	text-align: 	center;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.skills	{
+	display: flex;
+	flex-wrap: 	wrap	;
+	justify-content: space-evenly;
+	background: 	papayawhip;
+	padding: 40px;
+	margin-bottom: 150px;
+	box-shadow: 5px 5px 20px 0px;
+	
+
+}
+.javascript-content {
+	
+
+	background: 	navajowhite;
+	border-radius: 	10px;
+	border-right: 5px solid darkorange;
+	width: 350px;
+	cursor: pointer;
+	display: 	flex;
+	justify-content: 	center;
+	margin-top: 	20px;
+
+}
+
+.javascript-content:hover {
+	background: 	darkorange	;
+	transition: 	3s all ease;
+}
+.java-img {
+	height: 	100px;
+	width: 	100px;
+	padding: 	10px;
+	
+}
+.java-img-boot {
+	
+	background: 	navajowhite;
+	border-radius: 	10px;
+	padding: 10px;
+	cursor: pointer;
+	
+	
+		height: 	100px;
+	width: 	100px;
+}
+
+hr {
+	height: 5px;
+	width: 50%;
+	margin: 	auto;
+	
+	background: 	orange;
+
+}
+
+
+
+.contact-link {
+	text-decoration: none;
+	font-family: 'Raleway';
+	display: inline-flex;
+	align-items: center;
+	text-align: center;
+	color: 	black	;
+	font-size: 20px;
+	padding: 20px;
+
+	color: darkorange;
+	
+	border-radius: 	10px;
+
+	}
+
+.links {
+	width: 100%;
+	text-align: center;
+	background: navajowhite;
+
+	
+}
+
+
+
+
+
+.about-me-container {
+	width: 100%;
+	
+	padding: 20px;
+	
+
+
+}
+
+.introduction {
+	font-family: 'Raleway';
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	z-index: 1;
+	padding-inline: 20px;
+	margin-left: 5px;
+	border-left: 1px solid orange;
+	
+
+
+	
+
+
+}
+.intro {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	border-radius: 10px;
+	
+
+}
+
+.male-img {
+	display: flex;
+	align-items: center;
+}
+
+.male {
+	width: 100px;
+	height: 100px;
+
+	background: darkorange;
+	text-align: center;
+	float: left;
+	border-radius: 100%;
+	
+
+}
+
+h4,h5	{
+	text-align: 	center;
+	font-family: 	'Raleway';
+	font-size: 40px;
+	font-weight: 200;
+	width: 100%;
+	margin-top: 	20px;
+}
+
+
+h5 {
+	margin-top: 150px;
+}
+
+
+
+/***********************************/
+.works {
+	margin-top: 	180px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 5px 5px 20px 0px;
+	background: 	antiquewhite;
+	padding: 	20px;
+	margin-bottom: 100px;
+	flex-wrap: wrap;
+	
+
+
+}
+
+.workuno {
+	width: 400px;
+	height: 	300px;
+	
+		border-radius: 	10px;
+	opacity: 0.8;
+
+}
+.workuno:hover {
+	opacity: 	1;
+	transition: 	2s all ease;
+
+
+
+}
+
+
+
+
+
+
+
+
+/************************************/
+.contact-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: 	wrap	;
+
+}
+
+.form {
+	width: 50%;
+	background: 	rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	padding: 20px;
+		box-shadow: 	10px 5px 20px 5px;
+		margin-top: 	20px;
+		margin-bottom: h5;
+}
+
+.form input[type="text"],
+textarea {
+	width: 100%;
+	outline: 	none;
+	border-bottom: 2px solid darkorange	;
+	padding: 20px;
+	color: 	black;
+	margin-top: 	20px;
+	border-radius: 10px;
+	font-family: 	'Raleway';
+
+}
+
+.form input[type="text"]:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+textarea {
+	
+	max-height: 	200px;
+	min-height: 150px;
+	max-width: 100%;
+	min-width: 	100%;
+}
+
+textarea:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+
+.btn-submit {
+text-align: 	center;
+display:block;
+margin: auto;
+font-size: 20px;
+padding: 	20px;
+font-family: 	'Raleway';
+border-radius: 10px;
+background: 	darkorange;
+margin-top: 	20px;
+cursor: pointer;
+}
+
+.btn-submit:hover {
+	background: 	white;
+	transition: 	2s all ease;
+}
+
+
+
+
+/*************************************/
+.workunocontainer {
+	
+}
+.workunocontainer p {
+	font-family: 	'Raleway';
+	font-weight: 	400;
+	font-style: italic	;
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+	
+}
+
+
+
+
+
