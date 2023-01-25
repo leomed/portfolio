@@ -15,11 +15,11 @@ $('.introduction').animate({
 
 
 //ANIMACION DE ICONOS DE WHAT CAN I DO//
-$('.can-img').css({
+$('.ideas-img').css({
 	opacity: 0
 });
 
-$('.can-img').animate({
+$('.ideas-img').animate({
 	opacity: 1
 },2000);
 
@@ -32,11 +32,11 @@ $('.can-img').animate({
 
 
 //ANIMACION DEl subtitulo//
-$('.h2content').css({
+$('.h2-container').css({
 	opacity: 0
 });
 
-$('.h2content').animate({
+$('.h2-container').animate({
 	opacity: 1
 },2000);
 
@@ -63,13 +63,13 @@ $('.tittle').animate({
 $(window).scroll(function(){
 
 if ($(window).scrollTop() > 600){
-    $('.skills').css({
+    $('.skills-container').css({
 			opacity: 0
 			
 		
 		});
 
-		$('.skills').animate({
+		$('.skills-container').animate({
 			opacity: 1
 			
 		},3000);

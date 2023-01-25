@@ -1,0 +1,184 @@
+
+/*********************************************/
+.skills-container	{
+	display: flex;
+	flex-wrap: 	wrap	;
+	justify-content: space-evenly;
+	background: 	$thirdColor;
+	padding: 40px;
+	margin-bottom: 30px;
+
+	
+}
+h2 {
+	font-family: 	'Raleway';
+	text-align: 	center;
+	width: 100%;
+	font-size: 40px;
+	font-weight: 600;
+	color: $primaryColor;
+	margin: 30px auto;
+}
+
+.javascript-content {
+	background: 	navajowhite;
+	border-radius: 	10px;
+	border-right: 5px solid darkorange;
+	width: 350px;
+	cursor: pointer;
+	display: 	flex;
+	justify-content: 	center;
+	margin-top: 	20px;
+}
+
+.javascript-content:hover {
+	background: 	darkorange	;
+	transition: 	3s all ease;
+}
+.java-img {
+	height: 100px;
+	width: 	100px;
+	padding: 	10px;
+	
+}
+
+
+h4,h5	{
+	color: $primaryColor;
+
+	text-align: 	center;
+	font-size: 40px;
+	font-weight: 600;
+	width: 100%;
+	margin: 30px auto;
+	
+}
+
+
+
+
+/***********************************/
+.works-container {
+
+	display: flex;
+	justify-content: center;
+
+	background: 	$thirdColor;
+	padding: 	20px;
+
+	flex-wrap: wrap;
+	
+
+
+}
+
+.workone-container .workuno	 {
+	width: 100%;
+	height: 	300px;
+	
+		border-radius: 	10px;
+	opacity: 0.8;
+
+}
+.workuno:hover {
+	opacity: 	1;
+	transition: 	2s all ease;
+
+
+
+}
+
+.workone-container p {
+	font-family: 	'Raleway';
+	font-weight: 	400;
+	text-align: center;	
+	font-style: italic	;
+
+
+}
+
+
+
+
+
+
+
+
+
+/************************************/
+.contact-container {
+	
+	justify-content: center;
+	flex-wrap: 	wrap	;
+
+}
+.formcont {
+	display: flex;
+	justify-content: center;
+}
+
+.form {
+	width: 50%;
+	background: 	rgba(0,0,0 , 0.2);
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 	10px 5px 20px 5px;
+	margin-top: 	20px;
+	
+}
+
+.form input[type="text"],
+textarea {
+	width: 100%;
+	outline: 	none;
+	border-bottom: 2px solid darkorange	;
+	padding: 20px;
+	color: 	black;
+	margin-top: 	20px;
+	border-radius: 10px;
+	font-family: 	'Raleway';
+
+}
+
+.form input[type="text"]:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+textarea {
+
+	max-height: 	200px;
+	min-height: 150px;
+	max-width: 100%;
+	min-width: 	100%;
+}
+
+textarea:focus {
+	background: 	rgba(255, 165,0, 0.4);
+	transition: 	1s all ease;
+}
+
+
+.btn-submit {
+text-align: 	center;
+display:block;
+margin: auto;
+font-size: 20px;
+padding: 	20px;
+font-family: 	'Raleway';
+border-radius: 10px;
+background: 	darkorange;
+margin-top: 	20px;
+cursor: pointer;
+}
+
+.btn-submit:hover {
+	background: 	white;
+	transition: 	2s all ease;
+}
+
+
+
+
+/*************************************/
+
