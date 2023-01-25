@@ -28,13 +28,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 .divition {
-	border: 10px solid $primaryColor;
+	border: 10px solid black;
 	border-style: dotted;
 	border-bottom: none;
 	width: 50px;
+
 	display: flex;
 	margin: 50px auto;
-	opacity: 0.7;
+	opacity: 0.8;
 	text-align: center;
 	
 }
@@ -65,7 +66,7 @@ h1,h2,h3,h4,h5,h6{
 .links-container {
 	width: 100%;
 	text-align: center;
-	background: $secondaryColor;
+	background: $primaryColor;
 	
 }
 
@@ -75,11 +76,10 @@ h1,h2,h3,h4,h5,h6{
 	display: inline-flex;
 	align-items: center;
 	text-align: center;
-	
 	font-size: 1em;
 	padding: 20px;
 	font-weight: 	500;
-	color: $primaryColor;
+	color: $headingColor;
 	
 	}
 .contact-link:hover {
@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6{
 .male {
 	width: 100px;
 	height: 100px;
-	background: darkorange;
+	background: $primaryColor;
 	text-align: center;
 
 	float: left;
@@ -188,21 +188,22 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
+	
 
 }
 
 .ideas-img{
 	font-family: 'Raleway';
 	width: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	text-align: center;
+	
 }
 
 .ideas-img p {
-	font-weight: 700;
-	color: $primaryColor;
-	font-weight: 500;
+	font-weight: 300;
+	font-family: 'Raleway';
+	color: $headingColor;
+	
 	padding: 20px;
 }
 

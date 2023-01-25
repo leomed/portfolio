@@ -16,14 +16,15 @@ h2 {
 	width: 100%;
 	font-size: 40px;
 	font-weight: 600;
-	color: $primaryColor;
+	color: $headingColor;
 	margin: 30px auto;
 }
 
 .javascript-content {
-	background: 	navajowhite;
+	
+	
 	border-radius: 	10px;
-	border-right: 5px solid darkorange;
+	border: 2px solid $primaryColor;
 	width: 350px;
 	cursor: pointer;
 	display: 	flex;
@@ -44,7 +45,7 @@ h2 {
 
 
 h4,h5	{
-	color: $primaryColor;
+	color: $headingColor;
 
 	text-align: 	center;
 	font-size: 40px;
@@ -90,7 +91,8 @@ h4,h5	{
 
 .workone-container p {
 	font-family: 	'Raleway';
-	font-weight: 	400;
+	font-weight: 	500;
+	color : black;
 	text-align: center;	
 	font-style: italic	;
 
@@ -107,9 +109,10 @@ h4,h5	{
 
 /************************************/
 .contact-container {
-	
+	background: $thirdColor;
 	justify-content: center;
 	flex-wrap: 	wrap	;
+	padding: 20px;
 
 }
 .formcont {
@@ -119,11 +122,11 @@ h4,h5	{
 
 .form {
 	width: 50%;
-	background: 	rgba(0,0,0 , 0.2);
+	background: none;
 	border-radius: 10px;
 	padding: 20px;
-	box-shadow: 	10px 5px 20px 5px;
-	margin-top: 	20px;
+	
+	
 	
 }
 
@@ -131,13 +134,23 @@ h4,h5	{
 textarea {
 	width: 100%;
 	outline: 	none;
-	border-bottom: 2px solid darkorange	;
+	border: none;
+	border-bottom:  2px solid darkorange	;
 	padding: 20px;
-	color: 	black;
+	color: 	white;
+	background: rgba(0, 0 , 0,  0.4);
 	margin-top: 	20px;
 	border-radius: 10px;
 	font-family: 	'Raleway';
 
+}
+
+input::placeholder {
+	color: $headingColor;
+}
+
+textarea::placeholder {
+	color: $headingColor;
 }
 
 .form input[type="text"]:focus {
@@ -166,14 +179,17 @@ margin: auto;
 font-size: 20px;
 padding: 	20px;
 font-family: 	'Raleway';
+font-weight: 200;
 border-radius: 10px;
 background: 	darkorange;
 margin-top: 	20px;
 cursor: pointer;
+border: none;
+color: white;
 }
 
 .btn-submit:hover {
-	background: 	white;
+	background: 	black;
 	transition: 	2s all ease;
 }
 
