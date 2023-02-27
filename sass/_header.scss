@@ -67,7 +67,16 @@ h1,h2,h3,h4,h5,h6{
 	width: 100%;
 	text-align: center;
 	background: $primaryColor;
+	display: 	flex;
+
+
 	
+}
+
+.links {
+	display: 	flex;
+	justify-content: 	flex-end;
+	width: 57%
 }
 
 .contact-link {
@@ -87,6 +96,48 @@ h1,h2,h3,h4,h5,h6{
 	transition: 3s all ease;
 }
 
+.git {
+	width: 45%;
+	display: 	flex;
+	justify-content: 	flex-end;
+	align-items: 	center;
+
+}
+.gitHeader{
+	height: 50px;
+	background: 	orange;
+	color : red;
+	margin-right: 	20px;
+	animation: a 5s infinite;
+
+	border-radius: 30px;
+
+	
+}
+@keyframes a {
+	0% {
+		background: orange;
+	}
+
+	20% {
+		background: 	$secondaryColor;
+	}
+
+	40% {
+		background: $thirdColor;
+	}
+
+	60% {
+		background: $headingColor
+	}
+
+	
+}
+
+.gitHeader:hover {
+	background: $thirdColor;
+	transition: 	1s all ease;
+}
 //////////////////////////////////////////////////////////
 
 /////////////////////////////////////////////////////////
