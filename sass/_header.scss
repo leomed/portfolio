@@ -105,7 +105,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .gitHeader{
 	height: 50px;
-	background: 	orange;
+	background: 	$primaryColor;
 	color : red;
 	margin-right: 	20px;
 	animation: a 5s infinite;
@@ -116,12 +116,12 @@ h1,h2,h3,h4,h5,h6{
 }
 @keyframes a {
 	0% {
-		background: orange;
+		background: $primaryColor;
 		transform: rotate(360deg);
 	}
 
 	20% {
-		background: 	$secondaryColor;
+		background: 	$primaryColor;
 	}
 
 	40% {
@@ -129,7 +129,7 @@ h1,h2,h3,h4,h5,h6{
 	}
 
 	60% {
-		background: $headingColor
+		background: black;
 	}
 
 	
@@ -173,6 +173,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .intro {
+	margin-top: 20px;
 	display: flex;
 	align-items: center;
 	width: 70%;
@@ -191,7 +192,7 @@ h1,h2,h3,h4,h5,h6{
 	z-index: 1;
 	padding-inline: 20px;
 	margin-left: 5px;
-	border-left: 1px solid orange;
+	border-left: 1px solid $primaryColor;
 }
 
 /////////////////////////////////////////////////

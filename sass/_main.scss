@@ -33,7 +33,7 @@ h2 {
 }
 
 .javascript-content:hover {
-	background: 	darkorange	;
+	background: 	$primaryColor	;
 	transition: 	3s all ease;
 }
 .java-img {
@@ -135,7 +135,7 @@ textarea {
 	width: 100%;
 	outline: 	none;
 	border: none;
-	border-bottom:  2px solid darkorange	;
+	border-bottom:  2px solid $primaryColor	;
 	padding: 20px;
 	color: 	white;
 	background: rgba(0, 0 , 0,  0.4);
@@ -146,15 +146,15 @@ textarea {
 }
 
 input::placeholder {
-	color: $headingColor;
+	color: $primaryColor;
 }
 
 textarea::placeholder {
-	color: $headingColor;
+	color: $primaryColor;
 }
 
 .form input[type="text"]:focus {
-	background: 	rgba(255, 165,0, 0.4);
+	background: 	$primaryColor;
 	transition: 	1s all ease;
 }
 
@@ -167,7 +167,7 @@ textarea {
 }
 
 textarea:focus {
-	background: 	rgba(255, 165,0, 0.4);
+	background: 	$primaryColor;
 	transition: 	1s all ease;
 }
 
@@ -181,7 +181,7 @@ padding: 	20px;
 font-family: 	'Raleway';
 font-weight: 200;
 border-radius: 10px;
-background: 	darkorange;
+background: 	$primaryColor;
 margin-top: 	20px;
 cursor: pointer;
 border: none;
