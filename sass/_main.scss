@@ -4,9 +4,14 @@
 	display: flex;
 	flex-wrap: 	wrap	;
 	justify-content: space-evenly;
-	background: 	$thirdColor;
+	
 	padding: 40px;
 	margin-bottom: 30px;
+		background: url('../images/123.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 	
 }
@@ -64,10 +69,15 @@ h4,h5	{
 	display: flex;
 	justify-content: center;
 
-	background: 	$thirdColor;
+	
 	padding: 	20px;
 
 	flex-wrap: wrap;
+		background: url('../images/123.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	
 
 
@@ -109,10 +119,15 @@ h4,h5	{
 
 /************************************/
 .contact-container {
-	background: $thirdColor;
+	
 	justify-content: center;
 	flex-wrap: 	wrap	;
 	padding: 20px;
+	background: url('../images/123.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 
 }
 .formcont {

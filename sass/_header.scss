@@ -5,10 +5,13 @@
 	font-size: 20px;
 }
 header {
-	
-	background: $thirdColor;
-	
-	flex-wrap: wrap;
+	background: url('../images/123.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	object-fit: cover;
 	width: 100%;
 
 	
